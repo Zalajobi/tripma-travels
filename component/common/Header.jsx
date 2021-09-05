@@ -6,7 +6,7 @@ const Header = (props) => {
         <React.Fragment>
             <header id="header">
                 <Container className="nav-container">
-                    <Navbar bg="white" expand="lg">
+                    <Navbar bg="white" expand="lg" fixed="top">
                         <Container>
                             <Navbar.Brand className="brand-name d-flex align-items-center" href="#home">Tripma</Navbar.Brand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />

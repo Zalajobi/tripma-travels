@@ -1,0 +1,20 @@
+/*HERO SECTION*/
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    width: 100%;
+    background:linear-gradient(0deg,  rgba(0, 247, 255, 0.5), rgb(96, 93, 236)), url(https://res.cloudinary.com/zalajobi/image/upload/v1630884366/Tripma/Landing%20Page/hero_ay3znn.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.hero .container h1{
+    text-align: center;
+    font-size: 72px;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #4f90fd, #6260fd, #6952fd, #7873fd, #7483fd, #8862fd);
+    -webkit-text-fill-color: transparent;
+    color: #464646;
+}

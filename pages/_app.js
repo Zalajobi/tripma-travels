@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../vendors/line-awesone/css/line-awesome.min.css'
 
 //Custom CSS
 import '../styles/home-page.css'
